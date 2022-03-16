@@ -1,4 +1,4 @@
-# Problem 005:
+# Problem 5:
 #     Smallest Multiple
 #
 # Description:
