@@ -2,19 +2,21 @@
 #     Smallest Multiple
 #
 # Description:
-#     2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
+#     2520 is the smallest number that can be divided by
+#       each of the numbers from 1 to 10 without any remainder.
 #
-#     What is the smallest positive number that is evenly divisible by all the numbers from 1 to 20?
+#     What is the smallest positive number that is
+#       evenly divisible by all the numbers from 1 to 20?
 
-def main(n):
+def main(n: int) -> int:
     """
-    Return the smallest number divisible by all factors 1 through `n`.
+    Returns the smallest number divisible by all factors 1 through `n`.
 
     Args:
         n (int): Natural number
 
     Returns:
-        Smallest multiple of 1 through `n`.
+        (int): Smallest multiple of all factors 1 through `n`
 
     Raises:
         AssertError: if incorrect params are given
