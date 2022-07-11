@@ -42,4 +42,5 @@ def main(n: int) -> int:
 if __name__ == '__main__':
     num = int(input('Enter a natural number: '))
     mult = main(num)
-    print('Smallest number divisible by all numbers 1 to {}:\n{}'.format(num, mult))
+    print('Smallest number divisible by all numbers 1 to {}:'.format(num))
+    print('  {}'.format(mult))
